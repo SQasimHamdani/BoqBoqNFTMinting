@@ -1,0 +1,177 @@
+
+  
+body{
+    background: #000;
+    font-family: 'Titillium Web';
+}
+html,
+body {
+    /* overflow-x: hidden; */
+    position: relative;
+}
+.sec_row{
+  padding: 3.5% 0;
+}
+#sec-two{
+  padding: 3.5% 0;
+}
+.green_txt{
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(60, 186, 84);
+  margin: 5px 0;
+  padding: 8px 0;
+    display: block;
+    font-family: "Titillium Web";
+  }
+.card_title{
+  font-family: "Titillium Web";
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+.hr_title{    
+  display: inline-block;
+  height: 2px;
+  line-height: 20px;
+  margin: 15px 0;
+  float: none;
+  position: relative;
+  background-color: rgb(60, 186, 84);
+  width: 30px;
+}
+.black_col{
+  color: black !important;
+}
+#section_white .col-md-6{
+  padding: 0 5%;
+}
+.black_bg .sec_row{
+  margin-top: -5px; 
+  padding: 0 5%;
+}
+.black_bg{
+  background:rgb(255, 255, 255);
+}
+.sec_col{
+  padding: 0;
+}
+.btn_run{
+margin: 0 auto !important;
+float: none !important;
+}
+.width_txt{
+  max-width: 786px;
+  width: 100%;
+  margin: 0 auto !important;
+  padding: 20px 0  70px 0 !important;
+  text-align: center !important;
+}
+ a{
+  color: #3CBA54 !important;
+}
+a:hover{
+  text-decoration: underline !important;
+}
+.video_custom{
+  background: url(https://content.app-sources.com/s/73451616327574183/uploads/GIFS/SHIBA_INU_2_BILLION_NEW_TOKEN_LAUNCH_Best_Crypto_To_Buy_Now_2022-1835341.gif) no-repeat center center;
+  background-size: cover !important;
+}
+.btn_run{
+  float: left;
+  /* border: 2px solid rgb(60, 186, 84) !important;
+  background-image: linear-gradient(45deg, #3CBA54 50%, transparent 50%) !important;
+  background: #3CBA54 !important; */
+}
+.span_holder{
+  font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Arial';
+    font-weight: normal;
+    display: block;
+    line-height: 10px;
+}
+.card_footer a{
+color: white !important;
+display: block !important;
+}
+.footer_sec{
+padding: 2% 0 1% 0;
+}
+.row_footer{
+margin-top: 3%;
+}
+.col-footer{
+  font-size: 12px;
+  color: white;
+  margin-top: 6px;
+}
+.card_footer a{
+line-height: 35px;
+}
+.card_term a{
+  font-size: 16px;
+  color: white !important;
+}
+.card_term p{
+  color: white;
+}
+.footer_img{
+  width: 175px !important;
+  height: 175px;
+}
+.card_footer a:hover{
+  color:  #3CBA54 !important;
+  text-decoration: underline;
+
+  }
+.run_clas{
+text-align: center !important;
+}
+.run_img{
+  width: 100%;
+}
+.txt_run{
+  line-height: 1.6em;
+    font-size: 18px !important;
+    text-align: left;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.line_hr{
+  width: 200px;
+  text-align: left;
+  display: block;
+}
+.main_card{
+  text-align: center;
+}
+.main_card img{
+  display: block;
+  margin: 0 auto;
+  max-width: 208px;
+  width: 100%;
+  height: 331px;
+}
+#section_white{
+  padding-bottom: 4%;
+}
+.head_lef{
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+.bull_span{
+  color: rgb(60, 186, 84);
+  font-family: Titillium Web;
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  text-align: left; 
+  line-height: 30px;
+}
+.para_txt{
+color: rgb(255, 255, 255);
+    font-family: "Titillium Web";
+    font-size: 15px;
+  }
+  

@@ -1,0 +1,937 @@
+body {
+    margin: 0;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+.opacity-25 {
+  opacity: .25 !important;
+}
+.opacity-50 {
+  opacity: .5 !important;
+}
+.opacity-100 {
+  opacity: 1 !important;
+}
+
+/* Navbar */
+.logo_s {
+    width: 70px;
+    height: 70px;
+}
+.mint_under_button .bg-info{
+    padding: 10px;
+    min-width: 380px;
+    max-width: 380px;
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.buttons_mint_div .btn-danger{
+    border-radius: 0;
+    min-width: 380px;
+}
+
+.nav-link {
+    color: white !important;
+    /* color: #000 !important; */
+    text-align: left;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.nav-link .wallet_address {
+    cursor: "pointer";
+    
+}
+
+.nav-link:hover {
+    color: #50cf5a !important;
+}
+
+.navbar-nav li:last-child {
+    margin-right: 10px;
+}
+
+.bg-nav{
+    /* padding-left: 210px;
+    padding-right: 210px; */
+    padding-bottom: 0.806018%;
+    padding-top: 1.36432%;
+} 
+
+
+/* 
+COnnect Wallet
+*/
+#portal .container {
+    position: fixed;
+    /* opacity: 98% !important; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.container .modal {
+    /* z-index: 2; */
+    width: 80%;
+    height: 70%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    animation: animate 0.3s;
+}
+.btn-cust {
+    width: 578px;
+    max-width: 100%;
+}
+.text_cust{
+margin: 0 auto;
+padding-bottom: 20px;
+}
+.text_cust span, .textb{
+    font-weight: bold;
+}
+.row_btn{
+    display: block;
+    margin: 0 auto;
+}
+#runpassportal .container {
+    position: fixed;
+    /* opacity: 98% !important; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.container .runpassmodal {
+    /* z-index: 2; */
+    width: 90%;
+    height: 80% !important;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    animation: animate 0.3s;
+}
+
+.runpassmodal .closemdlbtn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 8px 11px;
+    background: crimson;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bull_sec_image{
+    bottom: 0px;
+    left: -25px;
+
+}
+
+.text-red{
+    color: crimson;
+}
+.image_security{
+    width: 400px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.text_icn {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.btn_cion_animation:hover {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation: slidebg 2s linear infinite;
+}
+
+
+
+.btn_cion {
+    width: 100%;
+    max-width: 230px;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+.icon_wallets {
+    height: 30px;
+    width: 30px !important;
+    margin: 0px 5px;
+}
+
+
+.modal .closemdlbtn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 8px 11px;
+    background: crimson;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.disconnect_wallet {
+      /* position: absolute; */
+  top: -10px;
+    /* right: 20px;  */
+    padding: 2px 11px;
+    background: crimson;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.cust_modal {
+    height: 70% !important;
+}
+
+
+
+.text_icn {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+}
+
+
+.btn_meta {
+    background: #d06608;
+}
+
+.btn_connect {
+    background: #04192f;
+    height: 50px;
+}
+
+.btn_cb {
+    background: #0552fc;
+    height: 50px;
+}
+
+
+/* Minting Functionality */
+.mintbtn {
+    margin-left: 220px;
+    position: relative;
+    padding: 10px 20px;
+    border: 2px solid #8a721d;
+    background: linear-gradient(90deg, #a38928 5%, #dad350 25%, #a38928 70%, #ece43e 100%) !important;
+    cursor: pointer;
+
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: var(--text-color);
+    border-radius: 20px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+.amountbtn {
+    position: relative;
+    padding: 0px 10px;
+    border: none;
+    color: black !important;
+    background-color: transparent !important;
+
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var(--text-color);
+
+    background-color: var(--btn-color);
+    border-radius: 20px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+.mintbtn:hover {
+    outline-color: transparent;
+    box-shadow: #aca234 0px 4px 10px;
+}
+
+
+.mintedcounts {
+    font-size: 18px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 10px;
+    color: var(--text-color);
+    background-color: #28a745;
+    color: white;
+    border-radius: 0px;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+.mint_bar {
+    width: 70%;
+    margin: 20px auto;
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: #000000;
+
+}
+
+.mint_under_button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.mint_under_button span {
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 300;
+    margin: 0px auto 0px;
+}
+
+.mint_under_button .bg-success {
+    padding: 10px;
+    border-radius: 0;
+    min-width: 380px;
+    width: 100%;
+}
+.mint_under_button .bg-danger {
+    padding: 10px;
+    border-radius: 0;
+    min-width: 380px;
+    width: 100%;
+}  
+.h2head{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.btn:focus,
+.btn.focus {
+    box-shadow: none;
+}
+
+.mintedcountsbar {
+    font-size: 18px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 10px;
+    color: var(--text-color);
+    background-color: hsl(94deg 54% 51%);
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+/* connect btn css end */
+
+
+
+.first_section {
+    padding-top: 10%;
+    /* margin-left: 10px; */
+}
+
+
+
+
+  
+.heroone .mint_under_button p {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@keyframes animate {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.custom_row,
+.custom_rows {
+    background: rgba(82, 6, 38, 0.616);
+    backdrop-filter: blur(10px);
+    margin-top: 0%;
+    margin-right: 50%;
+    margin-left: 0%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.text_span{
+    line-height: 1.3em;
+    font-size: 18px;
+    letter-spacing: normal;
+    color: rgba(60, 186, 84, 1);
+  }
+
+
+  
+.wallet_btn{
+    font-size: 21px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Helvetica';
+    letter-spacing: 0px;
+    border-width: 0px;
+    padding: 24px 48px;
+    width: auto;
+    box-shadow: 0px 8px 41px 0px rgb(0 0 0 / 33%);
+    border-radius: 4px;
+    background: #b80f0f;
+    margin-top: 20px;
+  } 
+  .btn_metamask{
+      background: #e40a0a;
+      border: none;
+      height: 50px;
+    }
+    .btn_metamask:hover{
+          text-decoration: none;
+          color: #fff;
+          background: #ac0b0b;
+    }
+  .fourth {
+    color: #ffffff;
+    font-family: 'Titillium Web';
+    background-color: rgba(255, 0, 0, 1);
+    border-color: rgba(0, 0, 0, 1);
+    letter-spacing: 0px;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 3px;
+
+  }
+  .text-a{
+    font-size: 36px;
+    font-weight: 700;
+    transition: ease-out 0.3s; 
+    box-shadow: inset 0 0 0 0 #28a745;
+    width: 375px;
+    padding: 20px 40px;
+  }
+  .text-a:hover {
+    box-shadow: inset 375px 0 0 0 #28a745;
+      border: 2px solid rgb(60, 186, 84) !important;
+  background: #3CBA54 !important;  
+  }
+
+  .text_line{
+      color: white;
+      font-family: Titillium Web, arial;
+    line-height: 1.6em;
+    font-size: 18px;
+  letter-spacing: normal;
+  display: block;
+  }
+  .sperator_line{
+    border-bottom: 2px solid rgba(60, 186, 84, 1);      
+    height: 10px;
+    width: 270px;
+    padding: 4px 0;
+    line-height: 20px;
+    margin: 15px 0;
+    float: none;
+    position: relative;
+  }
+#navbarText > ul > li{
+    border-right: 1px solid rgba(60, 186, 84, 1); 
+  }
+  #navbarText > ul > li:last-child{
+    border-right: 0; 
+  }
+  #navbarText > ul > li > a{
+    padding: 0 20px 0 20px;
+  }
+
+
+  .navbar-nav li:last-child{
+    margin-right: 10px;
+  }
+  .para_p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .main_text h1{
+      font-weight: bold;
+      font-family: 'Titillium Web';
+      color: white;
+      line-height: 1em;
+      font-size: 72px;
+      letter-spacing: normal;  }
+.first_div{
+    padding-top: 120px;
+}
+ .btn:focus {
+    box-shadow: none; 
+ }
+
+  
+  .col_text{
+      margin-bottom: 14%;
+  }
+  .button_buy:hover{
+      color: black;
+      background: #50cf5a;
+      text-decoration: none;
+  }
+  .container_banner{
+    max-width: 1200px;
+    width: 100%;
+} 
+.bg-nav{
+    max-width: 1100px;
+    width: 100%;
+}
+
+  .image_card {
+      width: 450px;
+  }
+
+@media screen and (max-width: 1220px) and (min-width: 992px) {
+    .custom_row {
+        margin-top: -10%;
+    }
+    .image_card{
+        width: 420px !important;
+    }
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .logo_s {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .buttons_mint_div .btn-danger, .mint_under_button .bg-success, .mint_under_button .bg-danger,  .mint_under_button .bg-info, .progress, .progress-text{
+        min-width: 270px;
+        width: 270px !important;
+    }
+    .navbar-brand {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .image_card {
+        width: 350px !important;
+    }
+
+    #roadmap {
+        padding: 4% 1% 4% 1%;
+    }
+
+
+    .p-5 {
+        padding: 1rem !important;
+    }
+
+    .heading_h1 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+
+    .card-header {
+        padding: 0;
+    }
+
+    .bg-nav,
+    .container_banner {
+        padding-left: 50px;
+        padding-right: 50px; 
+    }
+
+    .navbar-toggler {
+        margin: 0 auto;
+    }
+
+
+    .custom_row {
+        margin-top: -10%;
+    }
+    .navbar-light .navbar-toggler{
+        background: #28a745!important;
+        border-color: #070B26;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 50px;
+        height: 53px;
+    }
+    .navbar-toggler{
+        margin-right: 0;
+    }
+   #navbarText{
+       background: white;
+   }
+   .first_div{
+    padding-top: 10px;
+   }
+    .nav-link{
+        color: #000 !important;
+    }#navbarText > ul > li{
+        padding: 20px;
+        margin: 0 auto;
+        border-right: 0;
+    }
+    .custom_row {
+        margin-top: -10%;
+    }
+
+
+
+    .p-5 {
+        padding: 1rem !important;
+    }
+
+    .heading_h1 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    .navbar-toggler {
+        background: #fff;
+    }
+
+    img {
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .fourth{
+font-size: 29px;
+width: 300px;
+    }
+ .logo_s{
+     max-width: 100%;
+width: 61px !important;
+     padding-bottom: 0;
+    }
+    .buttons_mint_div .btn-danger, .mint_under_button .bg-success, .mint_under_button .bg-danger, .mint_under_button .bg-info, .progress, .progress-text{
+        min-width: 250px;
+        width: 250px !important;
+    }
+    .navbar-brand{
+        display: block;
+        margin: 0 auto;
+    }
+    .mintbtn {
+        padding: 10px 10px !important;
+    }
+    .bg-nav, .container_banner{
+        padding-left: 1% !important;
+        padding-right: 1% !important;
+    } 
+    .first_div{
+        padding-top: 20px;
+    }
+    .main_text h1{
+        font-size: 48px;
+    }
+    .text_span, .text_line{
+        font-size: 16px;
+        line-height: 1.5em;
+        
+    }
+    img{
+        width: 100% !important;
+    }
+    .wallet_btn{
+        padding: 15px 18px;
+    }
+    .btn_ion{
+text-align: center;
+font-size: 15px;
+    }
+    .navbar-toggler{
+margin: 0 auto;
+    }
+    .navbar-light .navbar-toggler{
+        background: #ffffff!important;
+        border-color: #ffffff;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 50px;
+        height: 53px;
+    }
+    .navbar-toggler{
+        margin-right: 0;
+    }
+   #navbarText{
+       background: white;
+   }
+ .nav-link{
+     color: #000 !important;
+ }#navbarText > ul > li{
+     padding: 20px;
+     margin: 0 auto;
+     border-right: 0;
+ }
+ 
+  }
+
+
+  
+@-webkit-keyframes jittery {
+    5%, 50% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    15% {
+      transform: scale(1.15);
+    }
+    20% {
+      transform: scale(1.15) rotate(-5deg);
+    }
+    25% {
+      transform: scale(1.15) rotate(5deg);
+    }
+    30% {
+      transform: scale(1.15) rotate(-3deg);
+    }
+    35% {
+      transform: scale(1.15) rotate(2deg);
+    }
+    40% {
+      transform: scale(1.15) rotate(0);
+    }
+  }
+
+
+
+  .progress {
+    position: relative;
+    z-index: 5;
+    background: #484848;
+    border: 5px solid #282828;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 5px 17px rgba(40, 40, 40, 0.5), 0 0 3px 1px rgba(40, 40, 40, 0.5) inset;
+  }
+  
+  .progress-text {
+    position: absolute;
+    font: bold 14px/20px Arial;
+    text-align: center;
+    top: 5px;
+    left: 0;
+  }
+  
+  .progress,
+  .progress-bar,
+  .progress-text {
+    width: 380px;
+    max-width: 600px;
+    height: 40px;
+  }
+  
+  .progress .progress-text:first-child {
+    z-index: 5;
+    color: white;
+  }
+  
+  .progress .progress-text:last-child {
+    z-index: 10;
+    color: black;
+  }
+  
+  .progress-bar {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    border-radius: 12px;
+    width: 50%;
+    -moz-transition: width 0.2s linear;
+    -webkit-transition: width 0.2s linear;
+    -o-transition: width 0.2s linear;
+    transition: width 0.2s linear;
+  }
+  
+  /* Shine style */
+  .progress.shine .progress-bar {
+    background-color: #00ba0c;
+    background-image: -moz-linear-gradient(left, #00ba0c 0%, #00ba0c 75%, #d7ffd1 80%, #00ba0c 85%, #00ba0c 100%);
+    background-image: -webkit-linear-gradient(left, #00ba0c 0%, #00ba0c 75%, #d7ffd1 80%, #00ba0c 85%, #00ba0c 100%);
+    background-image: -o-linear-gradient(left, #00ba0c 0%, #00ba0c 75%, #d7ffd1 80%, #00ba0c 85%, #00ba0c 100%);
+    background-image: -ms-linear-gradient(left, #00ba0c 0%, #00ba0c 75%, #d7ffd1 80%, #00ba0c 85%, #00ba0c 100%);
+    background-image: linear-gradient(to right, #00ba0c 0%, #00ba0c 75%, #d7ffd1 80%, #00ba0c 85%, #00ba0c 100%);
+    background-size: 800px 20px;
+    box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.5), inset 0 2px 2px rgba(255, 255, 255, 0.8);
+    -webkit-animation: shine 2s linear infinite;
+    -moz-animation: shine 2s linear infinite;
+    animation: shine 2s linear infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    to {
+      background-position: 800px 0;
+    }
+  }
+  @-moz-keyframes shine {
+    to {
+      background-position: 800px 0;
+    }
+  }
+  @keyframes shine {
+    to {
+      background-position: 800px 0;
+    }
+  }
+
+/* TEST New COde for Page Start */
+.head_run {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 700 !important;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    text-align: center;
+}
+.head_run h1{
+    font-weight: 500;
+}
+.text-a{
+    float: left !important;
+}
+
+/* slider css */
+.slide_tbtn {
+    background: #222 !important;
+    width: 50px !important;
+    height: 70px;
+}
+
+.slide_tbtn:hover {
+    background: rgb(96, 96, 96) !important;
+}
+
+.div_cam {
+    padding-bottom: 6% !important;
+}
+
+.btn_green {
+    background: rgb(60, 186, 84) !important;
+}
+
+.mySlides {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main_card,
+    .sec_row,
+    .runner_mob,
+    .footer_sec {
+        padding: 5%;
+    }
+
+    .footer_sec a,
+    .col-footer,
+    .card_term {
+        text-align: center;
+    }
+
+    .footer_sec img {
+        display: block;
+        margin: 0 auto;
+    }
+
+        .bull_sec_image {
+            
+            bottom: 0px;
+            left: 0px;
+    
+        }
+        .image_security{
+            width: 50% !important;
+        }
+.textb{
+    font-size: 22px;
+    margin: 0;
+}
+.text_cust{
+        font-size: 15px;
+            padding: 6px 15px;
+}
+.bull_sec_image{
+    text-align: center;
+}
+br{
+    display: none;
+        padding: 6px 15px;
+}
+}
+
+/* slider css */
+
+/* TEST New COde for Page Start */
